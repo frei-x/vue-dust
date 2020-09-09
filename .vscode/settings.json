@@ -1,0 +1,33 @@
+{
+  "editor.tabSize": 2,
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": true,
+      "singleQuote": true,
+      "printWidth": 120
+    }
+  },  
+  "[javascript]": {
+    "editor.defaultFormatter": "remimarsal.prettier-now"
+  },
+  // 两个空格
+  "vetur.format.options.tabSize": 2,
+  "prettier.useTabs": false, // 使用制表符代替空格
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.printWidth": 120,
+  "prettier.spaceBeforeFunctionParen": true, // 函数前空格 prettier-now 扩展 调用和声明区别
+  "prettier.bracketSpacing": false, // 数组前后空格
+  "prettier.arrayExpand": false, // 数组占整行
+  "prettier.alignObjectProperties": false, // 对齐冒号
+  "prettier.bracesSpacing": true, // 对象前后空格
+  "prettier.jsxSingleQuote": true,
+
+  "GitCommitPlugin.CustomCommitType": [
+    "🎨ui",
+    "💎enhance",
+    "🔥chore",
+    "⚡performance",
+    "💪robust "
+  ],
+}
