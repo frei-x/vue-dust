@@ -3,19 +3,6 @@
   "version": "3.0.0-alpha.0",
   "private": false,
   "description": "Vue3 composition API library",
-  "author": {
-    "name": "衣沾不足惜",
-    "email": "javascript.h@qq.com",
-    "url": "https://gitee.com/stringify"
-  },
-  "keywords": [
-    "Vue3",
-    "composition-api",
-    "composition",
-    "VAC",
-    "vue",
-    "hooks"
-  ],
   "bugs": {
     "url": "https://gitee.com/stringify/vue-dust/issues",
     "email": "javascript.h@qq.com"
@@ -69,5 +56,18 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "author": {
+    "name": "衣沾不足惜",
+    "email": "javascript.h@qq.com",
+    "url": "https://gitee.com/stringify"
+  },
+  "keywords": [
+    "Vue3",
+    "composition-api",
+    "composition",
+    "VAC",
+    "vue",
+    "hooks"
+  ],
 }
