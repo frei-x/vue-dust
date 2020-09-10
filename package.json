@@ -24,13 +24,15 @@
     "type": "git",
     "url": "https://gitee.com/stringify/vue-dust"
   },
+  "license": "Mulan PSL v2",
   "homepage": "https://gitee.com/stringify/vue-dust",
   "main": "dist/vue-dust.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve src/index.js",
     "build": "vue-cli-service build --target lib --name vue-dust src/index.js",
     "lint": "vue-cli-service lint",
-    "publish-alpha": "npm version prerelease --preid=alpha && npm publish --tag alpha"
+    "publish-alpha": "npm version prerelease --preid=alpha && npm publish --tag alpha",
+    "publish": "npm publish --tag alpha"
   },
   "dependencies": {
     "core-js": "^3.6.5",
