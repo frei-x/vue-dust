@@ -1,8 +1,8 @@
 {
   "name": "vue-dust",
-  "version": "3.0.0",
+  "version": "3.0.0-alpha.0",
   "private": false,
-  "description": "Vue3.0 composition API library",
+  "description": "Vue3 composition API library",
   "author": {
     "name": "衣沾不足惜",
     "email": "javascript.h@qq.com",
@@ -30,13 +30,13 @@
   "scripts": {
     "serve": "vue-cli-service serve src/index.js",
     "build": "vue-cli-service build --target lib --name vue-dust src/index.js",
+    "build:dev": "vue-cli-service build --target lib --name vue-dust src/index.js --watch",
     "lint": "vue-cli-service lint",
     "publish-alpha": "npm version prerelease --preid=alpha && npm publish --tag alpha",
     "publish": "npm publish --tag alpha"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0-rc.10"
+    "core-js": "^3.6.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.0",
