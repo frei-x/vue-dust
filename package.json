@@ -1,6 +1,6 @@
 {
   "name": "vue-dust",
-  "version": "3.0.1",
+  "version": "3.0.2-0",
   "private": false,
   "description": "Vue3.0 composition API library",
   "author": {
