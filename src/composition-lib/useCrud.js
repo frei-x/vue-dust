@@ -1,8 +1,8 @@
-import { ref, reactive, toRaw, toRefs, computed, readonly, onMounted, onUnmounted, watchEffect } from 'vue';
+import { ref } from 'vue';
 
 export function useCrud (propsData) {
   let oData = ref(propsData);
-  const createData = singleData => {
+  const createData = (singleData) => {
     oData.value.unshift(singleData);
   };
   const deleteData = (index, { key, value } = {}) => {
@@ -10,7 +10,7 @@ export function useCrud (propsData) {
       oData.value.splice(index, 1);
       return;
     }
-    const fIndex = oData.value.findIndex(item => item[key] == value);
+    const fIndex = oData.value.findIndex((item) => item[key] == value);
     oData.value.splice(fIndex, 1);
     return fIndex > -1;
   };
@@ -20,7 +20,7 @@ export function useCrud (propsData) {
    * @param {Function} callback(item,index)
    * @returns {Array}
    */
-  const readData = callback => {
+  const readData = (callback) => {
     if (!callback) {
       return oData.value;
     }
