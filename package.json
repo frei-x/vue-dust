@@ -23,7 +23,8 @@
     "publish": "npm publish --tag alpha",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "test": "jest",
+    "test": "jest ./jest",
+    "test:dev": "jest ./jest -o",
     "push-dev": "git push gitee dev && git push github dev"
   },
   "dependencies": {
@@ -51,7 +52,6 @@
     "env": {
       "node": true,
       "jest": true
-
     },
     "extends": [
       "plugin:vue/vue3-essential",
