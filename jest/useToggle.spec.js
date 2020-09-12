@@ -7,11 +7,7 @@ function forCallback (count, callback) {
     callback();
   }
 }
-function for101 (callback) {
-  for (let i = 0; i < 101; i++) {
-    callback();
-  }
-}
+
 test('init 1  equals true', () => {
   const [state, toggle] = useToggle(1);
   expect(state.value).toBe(true);
