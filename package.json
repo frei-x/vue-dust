@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/stringify/vue-dust"
+    "url": "https://github.com/frei-x/vue-dust"
   },
   "license": "MulanPSL-2.0",
   "homepage": "https://gitee.com/stringify/vue-dust",
@@ -28,6 +28,7 @@
     "push-dev": "git push gitee dev && git push github dev"
   },
   "dependencies": {
+    "@vue/composition-api": "^1.0.0-beta.13",
     "core-js": "^3.6.5"
   },
   "devDependencies": {
