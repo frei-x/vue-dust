@@ -8,7 +8,7 @@ module.exports = {
         '@lib': '@/composition-lib',
         '@utils': '@/utils',
         // https://github.com/facebook/react/issues/13991 使用项目中的vue ,否则多个 视图不刷新
-        vue: path.resolve('./node_modules/vue')
+        vue: path.resolve('./node_modules/vue/index.js')
       }
     }
   },
