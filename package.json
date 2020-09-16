@@ -17,7 +17,7 @@
   "scripts": {
     "serve": "vue-cli-service serve src/index.js",
     "build": "vue-cli-service build --target lib --name vue-dust src/index.js",
-    "build:dev": "npm uninstall vue && vue-cli-service build --target lib --name vue-dust src/index.js --watch",
+    "build:dev": "vue-cli-service build --target lib --name vue-dust src/index.js --watch",
     "lint": "vue-cli-service lint",
     "publish-alpha": "npm version prerelease --preid=alpha && npm publish --tag alpha",
     "publish": "npm publish --tag alpha",
