@@ -8,7 +8,7 @@
     }
   },  
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "remimarsal.prettier-now"
   },
   // 两个空格
   "vetur.format.options.tabSize": 2,

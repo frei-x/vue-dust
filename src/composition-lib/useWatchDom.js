@@ -1,5 +1,5 @@
 import { watchEffect, onUnmounted } from 'vue';
-import { getType } from '@utils/index';
+import { getType } from '@utils';
 function useWatchDom (el = { value: undefined }, callback = function () {}, optios = {}) {
   let options = {
     root: null,

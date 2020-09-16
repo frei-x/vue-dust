@@ -9,11 +9,11 @@ function getElPosition (paramsEl) {
   const rect = el.getBoundingClientRect();
   const absolute = {
     left: rect.left + parseFloat(document.documentElement.scrollLeft),
-    top: rect.top + parseFloat(document.documentElement.scrollTop)
+    top: rect.top + parseFloat(document.documentElement.scrollTop),
   };
   return {
     relative: rect,
-    absolute
+    absolute,
   };
 }
 export { getElPosition };

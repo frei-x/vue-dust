@@ -17,13 +17,13 @@
   "scripts": {
     "serve": "vue-cli-service serve src/index.js",
     "build": "vue-cli-service build --target lib --name vue-dust src/index.js",
-    "build:dev": "vue-cli-service build --target lib --name vue-dust src/index.js --watch",
+    "build:dev": "npm uninstall vue && vue-cli-service build --target lib --name vue-dust src/index.js --watch",
     "lint": "vue-cli-service lint",
     "publish-alpha": "npm version prerelease --preid=alpha && npm publish --tag alpha",
     "publish": "npm publish --tag alpha",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "test": "jest ./jest",
+    "test": "npm i vue@next && jest ./jest",
     "test:dev": "jest ./jest -o",
     "push-dev": "git push gitee dev && git push github dev"
   },
@@ -64,20 +64,6 @@
     "rules": {
       "no-unused-vars": "warn",
       "vue/no-unused-components": "warn"
-    }
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "vue"
-    ],
-    "transform": {
-      ".*\\.(vue)$": "vue-jest",
-      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
-    },
-    "moduleNameMapper": {
-      "^@/(.*)$": "<rootDir>/src/$1"
     }
   },
   "browserslist": [
