@@ -29,7 +29,6 @@ function useState (value, options) {
   function addHistoryState (arr, item, max) {
     arr.push(item);
     pointer = arr.length - 1;
-    console.log(arr);
     if (arr.length >= max) {
       arr.shift();
     }
@@ -42,6 +41,7 @@ function useState (value, options) {
 
   function clearHistory () {
     arrHistoryState.length = 0;
+    arrHistoryState.push('')
     setCurrentPointerState(0, false);
   }
 
