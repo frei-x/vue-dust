@@ -1,5 +1,5 @@
 import { toolTip } from './toolTip';
 function installDirective (app) {
-  app.directive('tool', toolTip);
+  app.directive('tip', toolTip);
 }
 export { installDirective };
