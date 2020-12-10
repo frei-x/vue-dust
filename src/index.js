@@ -6,7 +6,7 @@ import * as utils from '@utils';
 export { utils };
 
 export { installDirective } from '@directives';
-
+export { default as BoxSelection } from '@components/BoxSelection';
 // const obj = {
 //   test: null,
 //   color: 'red'
