@@ -1,5 +1,5 @@
 <template>
-  <div class="box">selectIOn</div>
+  <div class="box"><slot></slot></div>
 </template>
 
 <script>
