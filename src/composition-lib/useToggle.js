@@ -1,8 +1,8 @@
 import { ref, readonly } from 'vue';
 
-export function useToggle (value, negationValue) {
-  let state;
-  let toggle;
+export function useToggle (value = false, negationValue) {
+  let state = ref(value);
+  let toggle = () => { };
   let count = 0;
   // 双参数
   if (negationValue !== undefined) {

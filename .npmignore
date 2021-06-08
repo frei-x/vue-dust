@@ -1,8 +1,13 @@
 # 忽略目录
 .vscode
 ./src
+./docs
+./jest
+./coverage
 # 忽略指定文件
 vue.config.js
 babel.config.js
 .gitignore
+jest.config.js
 *.map
+*.html

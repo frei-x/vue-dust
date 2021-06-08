@@ -8,7 +8,7 @@
     }
   },  
   "[javascript]": {
-    "editor.defaultFormatter": "remimarsal.prettier-now"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   // 两个空格
   "vetur.format.options.tabSize": 2,
@@ -22,6 +22,7 @@
   "prettier.alignObjectProperties": false, // 对齐冒号
   "prettier.bracesSpacing": true, // 对象前后空格
   "prettier.jsxSingleQuote": true,
+  "prettier.arrowParens": false,
 
   "GitCommitPlugin.CustomCommitType": [
     "🎨ui",
