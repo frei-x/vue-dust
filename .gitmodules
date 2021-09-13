@@ -1,3 +1,6 @@
 [submodule "backbone"]
 	path = backbone
 	url = D:/code/源码研究/backbone
+[submodule "book"]
+	path = book
+	url = https://github.com/frei-x/book.git
